@@ -1,0 +1,13 @@
+name = "aeimage"
+main = "src/index.ts"
+compatibility_date = "2025-01-24"
+
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+GOOGLE_API_KEY = "your-google-api-key"
+PUBLIC_URL = "https://example.com" # change this to your domain
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "my-bucket-name" # change this to your bucket name

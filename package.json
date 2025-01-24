@@ -1,0 +1,17 @@
+{
+  "name": "aeimage",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@types/node": "^22.10.10",
+    "hono": "^4.6.18",
+    "i": "^0.3.7"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "wrangler": "^3.101.0"
+  }
+}
