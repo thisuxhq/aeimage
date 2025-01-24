@@ -17,7 +17,7 @@ A Cloudflare Worker-based API that processes images using Google's Gemini AI to 
 
 1. Clone and install dependencies:
 ```bash
-git clone https://github.com/yourusername/aeimage
+git clone https://github.com/thisuxhq/aeimage
 cd aeimage
 npm install
 ```
