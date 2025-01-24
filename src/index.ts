@@ -119,7 +119,7 @@ app.post("/upload", async (c) => {
       imagePart
     ]);
     const response = await result.response;
-    const metadata = response.text
+    const metadata = response.text()
 
     console.log('🚀 Gemini processing completed'); // Added log for debugging
 
